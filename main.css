@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+   
+   }
+   
+   .container {
+    display: flex;
+    flex-flow: row wrap;
+       /* height:10em;
+       width:50em; */
+   
+   }
+   .grid {
+       margin:0;
+       padding:0;
+       border:none;
+       outline:1px solid #000;
+       display: wrap;
+   }
+   
+   .pixel {
+    height: 1em;
+    width: 1em;
+    border: black .01em solid;
+   }
+   .colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0px 50px 0px
+   
+   }
+   .red{
+   
+    height: 1em;
+    width: 1em;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+   
+   }
+   .yellow{
+    height: 1em;
+    width: 1em;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+   }
+   .green{
+    height: 1em;
+    width: 1em;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+   }
+   
+   body {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+   }
